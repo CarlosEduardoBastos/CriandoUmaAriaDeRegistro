@@ -1,0 +1,16 @@
+body{
+    padding: 0;
+    margin: 0;
+    font-family: Arial;
+}
+#text-principal{
+    color: white;
+    text-align: center;
+    font-style: italic;
+}
+#caixa{
+    margin: 0 auto;
+    width: 300px;
+    height: 600px;
+    background: linear-gradient(45deg, blue,red);
+}
