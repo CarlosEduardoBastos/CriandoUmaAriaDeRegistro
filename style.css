@@ -2,15 +2,25 @@ body{
     padding: 0;
     margin: 0;
     font-family: Arial;
+    background: black;
 }
 #text-principal{
+    margin-top: 40px;
     color: white;
     text-align: center;
     font-style: italic;
 }
 #caixa{
+    text-align: center;
+    border-radius: 20px ;
     margin: 0 auto;
-    width: 300px;
-    height: 600px;
+    width: 250px;
+    height: 500px;
     background: linear-gradient(45deg, blue,red);
+}
+#caixa-login{
+    margin-top: 60px;
+}
+#caixa-login h1{
+    margin-top: 100px;
 }
