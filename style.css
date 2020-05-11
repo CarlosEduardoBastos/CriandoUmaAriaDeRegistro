@@ -11,6 +11,7 @@ body{
     font-style: italic;
 }
 #caixa{
+    animation: animeformulario 1s;
     text-align: center;
     border-radius: 20px ;
     margin: 0 auto;
@@ -18,7 +19,7 @@ body{
     height: 500px;
     background: linear-gradient(45deg, blue,red);
 }
-#caixa-login{
+#caixa-login{  
     margin-top: 60px;
 }
 #caixa-login h1{
@@ -28,4 +29,13 @@ body{
 input{
     margin-top: 10px;
     border-radius: 10px;
+}
+@keyframes animeformulario{
+    0%{
+        transform: translateX(-100%);
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
 }
