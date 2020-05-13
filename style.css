@@ -2,22 +2,35 @@ body{
     padding: 0;
     margin: 0;
     font-family: Arial;
-    background: black;
+    background: white;
 }
-/*configurando o cabeçalio*/
+/*configurando a aria de navegação*/
 header{
     position: absolute;
     top: 0px;
     width: 100%;
     height: 60px;
-    background: white;
+    background: black;
 }
-#text-principal{
-    margin-top: 40px;
+#menu ul li{
+    display: inline-block;
+    margin: 5px;
+}
+#menu ul li a{
+    text-decoration: none;
     color: white;
+    font-size: 22px;
+}
+#menu ul li a:hover{
+    color: darkturquoise;
+}
+#text-pricipal{
+    margin-top: -50px;
+    color: darkturquoise;
     text-align: center;
     font-style: italic;
 }
+/*conteudo do site*/
 #caixa{
     animation: animeformulario 1s;
     text-align: center;
