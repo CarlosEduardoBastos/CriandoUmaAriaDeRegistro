@@ -1,0 +1,14 @@
+/*Tela Pequena*/
+@media screen and (max-width: 500px){
+    #logo{
+        color: darkturquoise;
+        position: absolute;
+        right: 20px;
+        margin-bottom: 50px;
+        font-size: 25px;
+    }
+    #menu{
+        position: absolute;
+        left: -30px;
+    }
+}
