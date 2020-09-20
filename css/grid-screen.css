@@ -1,0 +1,42 @@
+/*Tela Grande*/
+@media screen and (min-width: 550px) and (max-width: 1025px){
+    header{
+        height: 70px;
+    }
+    #menu ul li a{
+        font-size: 35px;
+    }
+    #logo{
+        margin-left: 570px;
+        font-size: 40px;
+        margin-top: -65px;
+    }
+    #caixa{
+        width: 500px;
+        height: 700px;
+    }
+    h3{
+        font-size: 27px;
+    }
+    #caixa__login h1{
+        font-size: 35px;
+    }
+    button{
+        font-size: 35px;
+        width: 200px;
+        height: 40px;
+    }
+    input{
+        width: 400px;
+        height: 25px;
+    }
+    legend{
+        font-size: 30px;
+    }
+    img{
+        top: 60px;
+        right: 130px;
+        height: 33px;
+        width: 33px;
+    }
+}
