@@ -7,9 +7,15 @@
     #menu{
         position: absolute;
         left: -40px;
-        
     }
     #menu ul li a{
         font-size: 19px;
+    }
+    #caixa{
+        font-size: 19px;
+        width: 250px;
+        height: 470px;
+        position: relative;
+        bottom: 15px;
     }
 }

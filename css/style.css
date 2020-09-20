@@ -36,9 +36,13 @@ header{
     text-align: center;
     border-radius: 20px ;
     margin: 0 auto;
-    width: 250px;
+    width: 300px;
     height: 500px;
     background: linear-gradient(45deg, blue,red);
+}
+h3{
+    font-size: 15px;
+    margin-top: 70px;
 }
 @keyframes animeformulario{
     0%{
@@ -67,6 +71,7 @@ button{
     box-shadow: 1px 1px 0 2px #7c2a01;
     border: 0;
     margin-top: 30px;
+    margin-left: 60px;
     width: 120px;
     height: 30px;
     transition: box-shadow 0.2s ease,transform 0.2s ease;
@@ -82,4 +87,10 @@ input{
 }
 input,button:focus{
     outline: none;
+}
+/*ícone*/
+img{
+    position: relative;
+    top: 50px;
+    right: 90px;
 }
